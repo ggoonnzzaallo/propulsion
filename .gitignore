@@ -7,3 +7,8 @@
 .vscode/
 *.swp
 *~
+
+# Keep teardown photos in git (they are project docs).
+# Large video dumps can be ignored if added later:
+benchmarking/**/*.mp4
+benchmarking/**/*.mov
