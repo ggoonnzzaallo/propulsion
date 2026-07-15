@@ -36,3 +36,5 @@ Simplest 3-phase DIY outrunner we chose for hand winding: **3 stator teeth, 4 ma
 | Topology | Architecture A (stator on base; bearings in rotor) |
 
 Full tables & Onshape notes live under [`../../docs/`](../../docs/).
+
+**Simulator:** [`../../docs/simulator.md`](../../docs/simulator.md) — V1/V2 presets in `src/bldc_sim/presets/n3p4.py`.

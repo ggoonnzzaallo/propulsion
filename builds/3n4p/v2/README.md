@@ -37,6 +37,8 @@ See [V1 log](../v1/).
 
 Tighter gap helps coupling; **turn count** is still expected to be the main BEMF lever after V1.
 
+Explore candidates in the repo simulator before winding: [`../../docs/simulator.md`](../../docs/simulator.md) (`V2_DRAFT` preset ≈ 120 turns / 28 AWG / ~1 mm gap).
+
 ---
 
 ## Keep from V1

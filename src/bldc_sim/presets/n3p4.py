@@ -2,7 +2,7 @@
 
 Geometry from docs/cad-build-guide.md (measured, LOCKED).
 V1 = as built and tested (failed: BEMF ~mV).
-V2 draft = builds/3n4p/v2/README.md proposal (more turns, thinner wire, tighter gap).
+V2 draft = builds/3n4p/v2 (CAD: gap under ~1 mm min magnet↔stator; electrical: more turns / thinner wire).
 """
 
 from __future__ import annotations
@@ -39,7 +39,8 @@ V2_DRAFT = MotorParams(
         **V1.to_dict(),
         "turns_per_tooth": 120,
         "awg": 28,
-        "air_gap": 1.0,  # only if a true diameter-3.00 shaft lands
+        # CAD measures minimum magnet↔stator distance under ~1 mm; use 1.0 as preset default.
+        "air_gap": 1.0,
     }
 )
 

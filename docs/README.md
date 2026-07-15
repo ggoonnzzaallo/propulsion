@@ -7,6 +7,7 @@ How-to material used across 3N4P versions. **Build status and version notes** li
 
 | Doc | Contents |
 |-----|----------|
+| [simulator.md](simulator.md) | `bldc_sim` Streamlit app — run with `uv` |
 | [cad-build-guide.md](cad-build-guide.md) | Parameters, rotor/stator stages |
 | [onshape-session.md](onshape-session.md) | Onshape Variable Studio + first sketches |
 | [assembly-magnets-windings.md](assembly-magnets-windings.md) | Magnets, winding, star connection |
