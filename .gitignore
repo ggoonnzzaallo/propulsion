@@ -14,7 +14,10 @@ __pycache__/
 *.swp
 *~
 
-# Keep teardown photos in git (they are project docs).
-# Large video dumps can be ignored if added later:
-benchmarking/**/*.mp4
-benchmarking/**/*.mov
+# Keep photos/docs in git. Ignore raw phone dumps and huge originals;
+# compressed previews live under builds/*/videos/ as .mp4.
+iphone pics*/
+**/IMG_*.MOV
+**/IMG_*.mov
+*.HEIC
+*.heic

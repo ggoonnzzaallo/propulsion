@@ -57,13 +57,37 @@ Phase-order or star mistakes can cause similar symptoms, but the BEMF measuremen
 Do **not** expect V1 hardware to run by more phase swapping alone.  
 Raise BEMF first — see [V2 plan](../v2/).
 
-## Photos / exports
+## Photos
 
-Add V1 photos, Onshape export links, or STLs here when available:
+| File | Caption |
+|------|---------|
+| [photos/01-parts-layout.jpg](photos/01-parts-layout.jpg) | Printed parts laid out (stator, base, rotor) |
+| [photos/02-rotor-magnets.jpg](photos/02-rotor-magnets.jpg) | Rotor cup with 4 bar magnets seated |
+| [photos/03-rotor-magnets-alt.jpg](photos/03-rotor-magnets-alt.jpg) | Rotor magnets, alternate angle |
+| [photos/04-stator-first-winding.jpg](photos/04-stator-first-winding.jpg) | First tooth wound |
+| [photos/05-stator-windings-complete.jpg](photos/05-stator-windings-complete.jpg) | All three coils wound |
+| [photos/06-stator-windings-alt.jpg](photos/06-stator-windings-alt.jpg) | Fully wound stator, alternate close-up |
+| [photos/07-stator-phase-leads.jpg](photos/07-stator-phase-leads.jpg) | Phase leads leaving the stator |
+| [photos/08-stator-on-base.jpg](photos/08-stator-on-base.jpg) | Wound stator on printed base |
+| [photos/09-wired-assembly-face.jpg](photos/09-wired-assembly-face.jpg) | Assembled outrunner, face view + bullets |
+| [photos/10-wired-assembly-side.jpg](photos/10-wired-assembly-side.jpg) | Assembled motor, side profile |
+| [photos/11-phase-bullet-connectors.jpg](photos/11-phase-bullet-connectors.jpg) | Phase wires / bullet connectors |
+| [photos/12-wired-assembly-handheld.jpg](photos/12-wired-assembly-handheld.jpg) | Handheld assembled motor |
+| [photos/13-esc-bench-test.jpg](photos/13-esc-bench-test.jpg) | Bench hookup: ESC + servo tester |
+
+## Videos
+
+Compressed from iPhone `.MOV` originals (GitHub-friendly sizes):
+
+| File | Notes |
+|------|--------|
+| [videos/01-hand-spin.mp4](videos/01-hand-spin.mp4) | Hand-spin / freeness check |
+| [videos/02-esc-attempt.mp4](videos/02-esc-attempt.mp4) | ESC powered attempt (jerk / no run) |
+| [videos/03-esc-spin-retry.mp4](videos/03-esc-spin-retry.mp4) | Follow-up ESC / assist attempt |
 
 ```
 v1/
-├── README.md          ← this file
-├── photos/            ← optional
-└── exports/           ← optional STL/STEP snapshots
+├── README.md
+├── photos/
+└── videos/
 ```

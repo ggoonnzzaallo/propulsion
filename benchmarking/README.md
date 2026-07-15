@@ -26,7 +26,7 @@ benchmarking/
 
 | Motor | Folder | Notes |
 |-------|--------|--------|
-| *(your tear-down)* | *add when photos land* | Past teardown — drop pics in a new folder |
+| **DYS D2830 1000KV** | [`dys-d2830-1000kv/`](dys-d2830-1000kv/) | Torn-down commercial outrunner + Amazon PDFs; ~14 magnets, laminated stator |
 
 ---
 

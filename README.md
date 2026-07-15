@@ -11,7 +11,7 @@ Hand-wound, FDM-printed brushless motors, tear-down notes, and an analytical par
 
 Also:
 - [**Simulator**](docs/simulator.md) — Streamlit / `bldc_sim` (BEMF, torque–speed, fill, etc.)
-- [**Benchmarking**](benchmarking/) — tear-downs and reference motors
+- [**Benchmarking**](benchmarking/) — tear-downs ([DYS D2830 1000KV](benchmarking/dys-d2830-1000kv/))
 
 ## Simulator (`bldc_sim`)
 
