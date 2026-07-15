@@ -1,0 +1,9 @@
+.DS_Store
+*.stl
+*.3mf
+*.step
+*.stp
+.idea/
+.vscode/
+*.swp
+*~
