@@ -2,11 +2,14 @@
 
 Software: **Onshape**. Units: **mm**. Topology: **3 slots / 4 poles**.
 
+**V1 CAD (built & tested):** [Onshape document](https://cad.onshape.com/documents/c3a46516d37b902d82586f2e/w/ed344aed172445edb6c630d8/e/2b879cec032d2310868e3323?renderMode=0&uiState=6a57b19a1ee05c228a657679)  
+Version notes: [`../builds/3n4p/v1/`](../builds/3n4p/v1/)
+
 ---
 
 ## Session 1 — Variable Studio (do this first)
 
-1. Go to [onshape.com](https://cad.onshape.com) → **Create** → **Document** → name it `bldc_3n4p`.
+1. Go to [onshape.com](https://cad.onshape.com) → **Create** → **Document** → name it `bldc_3n4p` (or open the V1 link above).
 2. In the document, click the **+** tab (bottom) → **Variable Studio** → name it `motor_vars`.
 3. Add these variables (type **Length** unless noted). Expression = the number; units mm.
 

@@ -12,7 +12,7 @@ Simplest 3-phase DIY outrunner we chose for hand winding: **3 stator teeth, 4 ma
 
 | Version | Status | Summary |
 |---------|--------|---------|
-| [**V1**](v1/) | Tested — failed | ~40 turns 24 AWG; ESC jerked, no run; BEMF ~mV |
+| [**V1**](v1/) | Tested — failed | ~40 turns 24 AWG; ESC jerked, no run; BEMF ~mV — [Onshape CAD](https://cad.onshape.com/documents/c3a46516d37b902d82586f2e/w/ed344aed172445edb6c630d8/e/2b879cec032d2310868e3323?renderMode=0&uiState=6a57b19a1ee05c228a657679) |
 | [**V2**](v2/) | Planned | Raise BEMF (more turns / thinner wire); optional tighter gap |
 
 ## Locked hardware (shared across versions unless noted)
