@@ -2,6 +2,10 @@
 
 **Status:** Not built yet. Goal: fix V1’s **too-low back-EMF** so a sensorless ESC can lock and spin.
 
+### CAD (Onshape)
+
+**V2 document:** [BLDC V2 — Onshape](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e)
+
 Baseline mechanical design: keep V1 topology (3N4P, Architecture A, same magnets/bearings) unless a reprint is required for gap or winding window.
 
 ---
