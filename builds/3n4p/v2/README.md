@@ -22,6 +22,8 @@ See [V1 log](../v1/).
 | Change | Detail |
 |--------|--------|
 | **Tighter air gap** | Rotor diameter reduced so magnet↔stator clearance is **under ~1 mm** (measured as **minimum** distance magnet face → stator; value depends on where you measure) |
+| **Thinner tooth tips** | Tip thickness `#TIP_THICK` reduced **1.0 mm → 0.5 mm** so the tip face can sit closer / improve min gap to the magnets |
+| **Tip-corner fillets** | **0.5 mm** fillets on tip corners (with the thinner tips) — print/wind friendliness and gap packaging |
 | **Stator fillets** | Fillets on stator to remove sharp corners for safer / easier coil winding |
 | **Rotor visibility cutouts** | Openings in the rotor so the interior (stator, windings, gap) can be seen when assembled |
 | **Stator press chamfer** | Chamfer on the stator hub so it presses onto the base more easily |

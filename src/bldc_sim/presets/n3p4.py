@@ -41,6 +41,8 @@ V2_DRAFT = MotorParams(
         "awg": 28,
         # CAD measures minimum magnet↔stator distance under ~1 mm; use 1.0 as preset default.
         "air_gap": 1.0,
+        # V2 CAD: tip thickness 1.0 → 0.5 mm (+ 0.5 mm corner fillets in Onshape).
+        "tip_thick": 0.5,
     }
 )
 
