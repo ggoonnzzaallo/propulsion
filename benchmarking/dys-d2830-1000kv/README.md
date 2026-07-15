@@ -10,7 +10,7 @@ Commercial reference motor — torn down to study real outrunner construction vs
 | Field | Value |
 |-------|--------|
 | Markings / KV / size | **DYS G-Power**, stickers **D2830 / 1000KV** |
-| Topology guess | Multi-slot laminated stator + magnet-ring outrunner (count from photos: **~14 magnets**) |
+| Topology (counted) | **12N14P** — 12 stator teeth, 14 rare-earth magnets |
 | Outrunner / inrunner | **Outrunner** |
 | Sensored? | Sensorless (3 phase leads only) |
 
@@ -18,6 +18,22 @@ Commercial reference motor — torn down to study real outrunner construction vs
 
 - [Amazon listing — DYS D2830 1000KV](docs/amazon-listing-dys-d2830-1000kv.pdf)
 - [Amazon listing — ESC + servo tester (drive gear used on DIY)](docs/amazon-listing-esc-servo-tester.pdf)
+
+## Measured / observed (hand teardown)
+
+| Feature | Value |
+|---------|--------|
+| Stator outer diameter | **22.0 mm** |
+| Stator stack height | **14.5 mm** |
+| Bare wire diameter | **0.22 mm** (~**31–32 AWG**) |
+| Magnet size | **4 × 12 × 2 mm** |
+| Magnet count | **14** |
+| Stator teeth (slots) | **12** |
+| Topology | **12N14P** |
+| Winding style | **2-strand parallel** — two thin wires wound together per tooth (packs corners tightly) |
+| Turns / tooth (estimate) | **~12–15** physical wraps per tooth |
+
+Shaft OD, bearings, and air gap not recorded yet — add if re-measured.
 
 ## Photos
 
@@ -38,24 +54,10 @@ Commercial reference motor — torn down to study real outrunner construction vs
 | [photos/13-stator-teeth-macro.jpg](photos/13-stator-teeth-macro.jpg) | Macro: insulated tooth faces + bearing |
 | [photos/14-bearing-windings-macro.jpg](photos/14-bearing-windings-macro.jpg) | Macro: copper strands + seated bearing |
 
-## Measured (fill in with calipers)
-
-| Feature | Measurement |
-|---------|-------------|
-| Shaft OD | |
-| Bearing (ID × OD × W) | |
-| Stator OD / ID | |
-| Stack height | |
-| Slot / tooth count | |
-| Magnet count | ~14 (from photos) |
-| Magnet size approx | |
-| Air gap approx | |
-| Wire gauge guess | |
-| Turns / tooth (if counted) | |
-
 ## Takeaways for DIY
 
-- Commercial motor uses an **iron laminated** stator — much higher flux than our plastic V1/V2 core.
-- Magnets form a continuous **ring array** in a metal bell (back-iron), not sparse bar magnets in plastic.
-- Dual-end shaft + set screw + circlip is a robust shaft retention pattern vs a single M3 through-stack.
+- **Iron laminated** 12-tooth stator + **14** magnets in a metal bell — much higher flux than our plastic 3N4P V1/V2 core.
+- Wire is fine (**~0.22 mm / 31–32 AWG**) with **few wraps** (~12–15) but **2-in-hand** — high copper density without single thick strands.
+- Magnets are small **4×12×2 mm** blocks, dense ring packing — not large sparse bars.
 - Same class of **sensorless ESC + 3 leads** we use on the DIY motor.
+- Dual-end shaft + set screw + circlip is a robust shaft retention pattern vs a single M3 through-stack.

@@ -26,7 +26,7 @@ benchmarking/
 
 | Motor | Folder | Notes |
 |-------|--------|--------|
-| **DYS D2830 1000KV** | [`dys-d2830-1000kv/`](dys-d2830-1000kv/) | Torn-down commercial outrunner + Amazon PDFs; ~14 magnets, laminated stator |
+| **DYS D2830 1000KV** | [`dys-d2830-1000kv/`](dys-d2830-1000kv/) | **12N14P**; stator Ø22 × 14.5 mm stack; 4×12×2 mm magnets ×14; ~0.22 mm 2-in-hand wire, ~12–15 turns/tooth |
 
 ---
 
