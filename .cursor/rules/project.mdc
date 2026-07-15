@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+# Project: BLDC motor build log + simulator
+
+- Hardware docs live in `builds/`, `docs/`, `benchmarking/` (markdown build logs for a DIY 3N4P air-core outrunner). Do not restructure them.
+- Software lives in `src/bldc_sim/` (Streamlit analytical simulator) with tests in `tests/`.
+- Python tooling is uv-only: `uv sync`, `uv run`, `uv add`. Never suggest pip/poetry/conda or manual venv activation.
+- The simulator is analytical (lumped parameters), intentionally not FEA. Physics changes should keep the equation metadata in `src/bldc_sim/models/equations.py` in sync so the in-app Learn panels stay correct.
+- Locked measured hardware values (magnets, bearings, radii) come from `docs/cad-build-guide.md`; presets in `src/bldc_sim/presets/` must match those docs.

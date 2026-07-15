@@ -1,0 +1,22 @@
+[project]
+name = "bldc-sim"
+version = "0.1.0"
+description = "Analytical BLDC motor parameter simulator with a Streamlit GUI (air-core 3N4P focus)"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.1",
+    "plotly>=6.9.0",
+    "streamlit>=1.59.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bldc_sim"]

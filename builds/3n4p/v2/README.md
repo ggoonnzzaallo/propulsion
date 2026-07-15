@@ -1,12 +1,12 @@
-# 3N4P — V2 (planned)
+# 3N4P — V2
 
-**Status:** Not built yet. Goal: fix V1’s **too-low back-EMF** so a sensorless ESC can lock and spin.
+**Status:** CAD in progress (not printed/tested yet). Goal: fix V1’s **too-low back-EMF** so a sensorless ESC can lock and spin.
 
 ### CAD (Onshape)
 
 **V2 document:** [BLDC V2 — Onshape](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e)
 
-Baseline mechanical design: keep V1 topology (3N4P, Architecture A, same magnets/bearings) unless a reprint is required for gap or winding window.
+Still **3N4P**, Architecture A, same magnets/bearings family as V1 — geometry refined for coupling, winding, and assembly.
 
 ---
 
@@ -15,27 +15,42 @@ Baseline mechanical design: keep V1 topology (3N4P, Architecture A, same magnets
 Hand-spin BEMF was only ~**0.2–1 mV** AC phase-to-phase → ESC jerks, never runs.  
 See [V1 log](../v1/).
 
-## Primary changes (proposed)
+---
 
-| Change | Why | Notes |
-|--------|-----|--------|
-| **Many more turns** per tooth | BEMF ∝ turns | Target **100–150+** turns/tooth (tune to fit) |
-| **Thinner wire** if needed | Fit more turns in the same window | Prefer **28–30 AWG** if 24 AWG fills too fast |
-| Optional **tighter air gap** (~1.0 mm) | Stronger coupling | Only if shaft concentricity improves (true Ø3 shaft) |
-| Optional **reprint** stator/rotor | More winding space or gap change | Reuse V1 base if mates still match |
+## CAD changes so far (vs V1)
+
+| Change | Detail |
+|--------|--------|
+| **Tighter air gap** | Rotor diameter reduced so magnet↔stator clearance is **under ~1 mm** (measured as **minimum** distance magnet face → stator; value depends on where you measure) |
+| **Stator fillets** | Fillets on stator to remove sharp corners for safer / easier coil winding |
+| **Rotor visibility cutouts** | Openings in the rotor so the interior (stator, windings, gap) can be seen when assembled |
+| **Stator press chamfer** | Chamfer on the stator hub so it presses onto the base more easily |
+| **Winding body (CAD)** | Solid body added to **represent** the winding bundle (keep-out / packaging — not literal turns) |
+| **Base wire routing** | Features on the base to route phase leads to the ESC and manage the **neutral** joint |
+
+### Still planned (electrical)
+
+| Change | Why |
+|--------|-----|
+| **Many more turns** / tooth | BEMF ∝ turns — target **100–150+** (tune to fit) |
+| **Thinner wire** if needed | Fit more turns — prefer **28–30 AWG** if 24 AWG fills too fast |
+
+Tighter gap helps coupling; **turn count** is still expected to be the main BEMF lever after V1.
+
+---
 
 ## Keep from V1
 
 - 3N4P, N–S–N–S magnets (4 of 12)
 - Star: starts = neutral, ends → ESC; same wind direction on all teeth
-- Architecture A mount concept
-- Onshape variable-driven CAD
+- Architecture A (stator on base; bearings in rotor)
+- Onshape parametric CAD
 
 ## Explicitly deprioritized (for now)
 
 - Jumping to 6N8P / more magnet pockets “just to try”
 - Iron core / sintered inserts (possible later generation)
-- Exhaustive star-flip on V1 (BEMF already rules for V2 priorities)
+- Exhaustive star-flip on leftover V1 hardware as the main path
 
 ## Success criteria
 
@@ -43,9 +58,9 @@ See [V1 log](../v1/).
 - [ ] ESC runs continuously after arm + throttle (flick assist OK on first try)
 - [ ] Notes + photos logged under `v2/` after the test
 
-## When V2 starts
+## Next hardware steps
 
-1. Decide wire gauge + target turns (measure remaining slot space on V1 tooth or reprint).  
-2. Wind or reprint + rewind.  
-3. Repeat BEMF test **before** spending time on endless phase swaps.  
-4. Log results in this folder (`photos/`, short test notes).
+1. Freeze CAD → export / print coupons (bearing bore, magnet pocket, press-fit chamfer).  
+2. Print full V2 set.  
+3. Wind for **high turn count**; confirm with BEMF test **before** long phase-swap sessions.  
+4. Log results + photos here.
