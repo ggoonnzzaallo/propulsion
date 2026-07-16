@@ -31,8 +31,9 @@ Printed on **Bambu Lab P1S** in **PLA** for now (PETG after V3). Prices USD, Jul
 | M3 screw kit (30–50 mm + nuts/washers) | 1 shaft set | 461 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0FGJ9FRGQ) |
 | 30 A ESC + servo tester | 1 (bench) | 1 | $7.99 | [Amazon (US)](https://www.amazon.com/dp/B0GZKJ2BTV) |
 | Printed rotor + stator + base | 1 each | — | filament | Onshape → STL |
+| **Amazon pack total** | | | **$49.35** | wire + bearings + magnets + M3 kit + ESC |
 
-Also used: epoxy (magnets), solder, bullet connectors, LiPo for ESC.
+Also used (not in total): epoxy, solder, bullet connectors, LiPo, PLA filament.
 
 **V1 vs V2 electrical:** V1 ~40 turns/tooth 24 AWG; V2 more turns, tighter air gap — see build logs.
 
