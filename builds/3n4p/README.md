@@ -7,4 +7,10 @@
 | [V1](v1/) | Failed | ~40 T, 24 AWG; BEMF ~mV |
 | [V2](v2/) | **Runs** | Tighter gap, more turns, better routing |
 
-Hardware: [BOM](../../docs/bom.md) · Assembly: [guide](../../docs/assembly-magnets-windings.md)
+## Parts (BOM)
+
+V1 and V2 use the **same purchased hardware** (magnets, bearings, wire, M3 kit, ESC). Only the printed parts differ.
+
+→ **[Bill of materials](../../docs/bom.md)** — Amazon links, qty per motor, prices
+
+Assembly steps: [magnets & windings](../../docs/assembly-magnets-windings.md)
