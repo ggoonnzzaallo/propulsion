@@ -5,7 +5,7 @@
 | Version | Result | Notes |
 |---------|--------|-------|
 | [V1](v1/) | Failed | ~40 T, 24 AWG; BEMF ~mV |
-| [V2](v2/) | **Runs** | Tighter gap, more turns, better routing |
+| [V2](v2/) | **Spins** | Low speed only; hand-start; noisy; &lt;1 min run |
 
 ## Parts (BOM)
 
