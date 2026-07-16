@@ -23,15 +23,19 @@ Same purchased hardware for **V1** and **V2**; only the printed rotor / stator /
 
 Printed on **Bambu Lab P1S** in **PLA** for now (PETG after V3). Prices USD, July 2026 — check Amazon before buying.
 
-| Item | Per motor | Pack | Price | Link |
-|------|-----------|------|-------|------|
-| 24 AWG magnet wire (4 oz) | ~15–25 m | 1 spool | $11.39 | [Amazon (US)](https://www.amazon.com/dp/B01NBM0MB5) |
-| 623-2RS bearings (3×10×4 mm) | 2 | 20 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0CH2YXWJN) |
-| Neodymium bars (~30×10×3 mm, measured ~29×9×3) | 4 | 12 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0FQJH8Y1P) |
-| M3 screw kit (30–50 mm + nuts/washers) | 1 shaft set | 461 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0FGJ9FRGQ) |
-| 30 A ESC + servo tester | 1 (bench) | 1 | $7.99 | [Amazon (US)](https://www.amazon.com/dp/B0GZKJ2BTV) |
-| Printed rotor + stator + base | 1 each | — | filament | Onshape → STL |
-| **Amazon pack total** | | | **$49.35** | wire + bearings + magnets + M3 kit + ESC |
+**Unit cost** = purchase price ÷ pack quantity. **Cost / motor** = unit cost × qty used.
+
+| Item | Used / motor | Purchase | Unit cost | Cost / motor | Link |
+|------|--------------|----------|-----------|--------------|------|
+| 24 AWG magnet wire | ~20 m | $11.39 / ~60 m spool (4 oz) | $0.19 / m | $3.80 | [Amazon (US)](https://www.amazon.com/dp/B01NBM0MB5) |
+| 623-2RS bearings (3×10×4 mm) | 2 | $9.99 / 20 pcs | $0.50 / pc | $1.00 | [Amazon (US)](https://www.amazon.com/dp/B0CH2YXWJN) |
+| Neodymium bars (~30×10×3 mm) | 4 | $9.99 / 12 pcs | $0.83 / pc | $3.33 | [Amazon (US)](https://www.amazon.com/dp/B0FQJH8Y1P) |
+| M3 shaft hardware | 5 pcs | $9.99 / 461 pcs | $0.02 / pc | $0.11 | [Amazon (US)](https://www.amazon.com/dp/B0FGJ9FRGQ) |
+| 30 A ESC + servo tester | 1 | $7.99 / 1 kit | $7.99 / kit | $7.99 | [Amazon (US)](https://www.amazon.com/dp/B0GZKJ2BTV) |
+| Printed rotor + stator + base | 1 set | filament | — | — | Onshape → STL |
+| **Total / motor** | | | | **$16.23** | |
+
+Wire spool length ≈ 60 m estimated for 4 oz 24 AWG; used length mid of ~15–25 m. M3 line = 1 long screw + 2 nuts + 2 washers. Cart to buy one of each pack once: **$49.35** (leftovers cover more motors).
 
 Also used (not in total): epoxy, solder, bullet connectors, LiPo, PLA filament.
 
