@@ -17,4 +17,4 @@ Not a finished motor yet — proves the V2 electrical + geometry path works, but
 ## Media
 
 Photos: [photos/](photos/)  
-Videos: [videos/01-first-run.mp4](videos/01-first-run.mp4) · [02-longest-run.mp4](videos/02-longest-run.mp4)
+Videos: [videos/01-first-run.mp4](videos/01-first-run.mp4) · [02-longest-run.mp4](videos/02-longest-run.mp4) · [03-run.mp4](videos/03-run.mp4)

@@ -1,13 +1,15 @@
 # Tear-down: \<motor name\>
 
 **Date:** YYYY-MM-DD  
-**Source:** e.g. old drone / hoverboard / CD-ROM / unknown  
+**Source:** e.g. Amazon / old drone / unknown  
+**Cost (USD):** $__.__ (date / store)
 
 ## Identity
 
 | Field | Value |
 |-------|--------|
 | Markings / KV / size | |
+| Cost paid / listing | |
 | Topology guess (e.g. 12N14P) | |
 | Outrunner / inrunner | |
 | Sensored? | |

@@ -1,22 +1,24 @@
 # Propulsion
 
-DIY **3N4P** plastic-core BLDC outrunner — build logs, BOM, simulator, and one commercial tear-down for reference.
+DIY BLDC motors — build logs, benchmarking, and an analytical simulator.
 
 ## Builds
 
-| | Result | Log |
-|--|--------|-----|
-| [**3N4P**](builds/3n4p/) | V1 failed · **V2 spins** (hand-start, issues) | [build log](builds/3n4p/) incl. [BOM](docs/bom.md) |
+### [3N4P outrunner](builds/3n4p/)
 
-**CAD:** [V1 Onshape](https://cad.onshape.com/documents/c3a46516d37b902d82586f2e/w/ed344aed172445edb6c630d8/e/2b879cec032d2310868e3323?renderMode=0&uiState=6a57b19a1ee05c228a657679) · [V2 Onshape](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e)
+3 teeth / 4 magnets — fewest coils for a hobby 3-phase ESC. Plastic core through V2; V3 adds steel.
 
-## Docs
+| Version | Result | What changed |
+|---------|--------|--------------|
+| [V1](builds/3n4p/v1/) | Failed — ESC jerked, never spun | ~40 T / 24 AWG, ~1.5 mm gap; BEMF ~mV |
+| [V2](builds/3n4p/v2/) | Spins — hand-start, low speed, noisy, &lt;1 min | Tighter gap, more turns, better routing |
+| [V3](builds/3n4p/v3/) | Scoped — goal **5 min continuous** | JLCCNC steel lams + back-iron + Ø3 shaft; PLA prints |
 
-- [BOM](docs/bom.md) — Amazon parts, qty per motor
-- [Assembly](docs/assembly-magnets-windings.md) — magnets, windings, ESC hookup
-- [CAD guide](docs/cad-build-guide.md) — parameters & print notes
-- [Simulator](docs/simulator.md) — `bldc_sim` Streamlit app
-- [DYS D2830 tear-down](benchmarking/dys-d2830-1000kv/) — reference motor
+BOM, assembly, and CAD notes live on the [3N4P page](builds/3n4p/).
+
+## Benchmarking
+
+Commercial tear-downs for comparison: **[benchmarking/](benchmarking/)**
 
 ## Simulator
 
@@ -24,3 +26,5 @@ DIY **3N4P** plastic-core BLDC outrunner — build logs, BOM, simulator, and one
 uv sync
 uv run streamlit run src/bldc_sim/app.py
 ```
+
+Details: [docs/simulator.md](docs/simulator.md)
