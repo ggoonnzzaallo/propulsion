@@ -8,7 +8,8 @@ Printed plastic stator/rotor/base, wound ~**40 turns/tooth** of **24 AWG**, star
 
 **V1 document:** [BLDC — Onshape](https://cad.onshape.com/documents/c3a46516d37b902d82586f2e/w/ed344aed172445edb6c630d8/e/2b879cec032d2310868e3323?renderMode=0&uiState=6a57b19a1ee05c228a657679)
 
-CAD / assembly process used during V1: [`../../docs/`](../../docs/).
+CAD / assembly process used during V1: [`../../docs/`](../../docs/).  
+Purchased parts: [`../../docs/bom.md`](../../docs/bom.md)
 
 ---
 

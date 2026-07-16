@@ -8,7 +8,8 @@ Addresses V1’s **too-low back-EMF** with tighter air gap, improved windability
 
 **V2 document:** [BLDC V2 — Onshape](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e)
 
-Still **3N4P**, Architecture A, same magnets/bearings family as V1.
+Still **3N4P**, Architecture A, same magnets/bearings family as V1.  
+Purchased parts: [`../../docs/bom.md`](../../docs/bom.md)
 
 ---
 

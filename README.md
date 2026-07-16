@@ -54,5 +54,6 @@ propulsion/
 - [V1 test & troubleshooting log](builds/3n4p/v1/README.md)
 - [V2 CAD changelog & plan](builds/3n4p/v2/README.md)
 - [Simulator docs](docs/simulator.md)
+- [Bill of materials](docs/bom.md)
 - [Benchmarking](benchmarking/README.md)
 - Shared CAD/winding guides: [`docs/`](docs/)
