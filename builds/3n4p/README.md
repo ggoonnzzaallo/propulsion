@@ -25,11 +25,11 @@ Printed on **Bambu Lab P1S** in **PLA** for now (PETG after V3). Prices USD, Jul
 
 | Item | Per motor | Pack | Price | Link |
 |------|-----------|------|-------|------|
-| 24 AWG magnet wire (4 oz) | ~15–25 m | 1 spool | $11.39 | [B01NBM0MB5](https://www.amazon.com/dp/B01NBM0MB5) |
-| 623-2RS bearings (3×10×4 mm) | 2 | 20 | $9.99 | [B0CH2YXWJN](https://www.amazon.com/dp/B0CH2YXWJN) |
-| Neodymium bars (~30×10×3 mm, measured ~29×9×3) | 4 | 12 | $9.99 | [B0FQJH8Y1P](https://www.amazon.com/dp/B0FQJH8Y1P) |
-| M3 screw kit (30–50 mm + nuts/washers) | 1 shaft set | 461 | $9.99 | [B0FGJ9FRGQ](https://www.amazon.com/dp/B0FGJ9FRGQ) |
-| 30 A ESC + servo tester | 1 (bench) | 1 | $7.99 | [B0GZKJ2BTV](https://www.amazon.com/dp/B0GZKJ2BTV) |
+| 24 AWG magnet wire (4 oz) | ~15–25 m | 1 spool | $11.39 | [Amazon (US)](https://www.amazon.com/dp/B01NBM0MB5) |
+| 623-2RS bearings (3×10×4 mm) | 2 | 20 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0CH2YXWJN) |
+| Neodymium bars (~30×10×3 mm, measured ~29×9×3) | 4 | 12 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0FQJH8Y1P) |
+| M3 screw kit (30–50 mm + nuts/washers) | 1 shaft set | 461 | $9.99 | [Amazon (US)](https://www.amazon.com/dp/B0FGJ9FRGQ) |
+| 30 A ESC + servo tester | 1 (bench) | 1 | $7.99 | [Amazon (US)](https://www.amazon.com/dp/B0GZKJ2BTV) |
 | Printed rotor + stator + base | 1 each | — | filament | Onshape → STL |
 
 Also used: epoxy (magnets), solder, bullet connectors, LiPo for ESC.
