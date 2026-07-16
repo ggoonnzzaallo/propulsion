@@ -1,70 +1,76 @@
-# 3N4P — V2
+# 3N4P — V2 (built & tested)
 
-**Status:** CAD in progress (not printed/tested yet). Goal: fix V1’s **too-low back-EMF** so a sensorless ESC can lock and spin.
+**Status:** **Success** — motor runs on sensorless ESC.
+
+Addresses V1’s **too-low back-EMF** with tighter air gap, improved windability/routing, and a higher-turn rewind.
 
 ### CAD (Onshape)
 
 **V2 document:** [BLDC V2 — Onshape](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e)
 
-Still **3N4P**, Architecture A, same magnets/bearings family as V1 — geometry refined for coupling, winding, and assembly.
+Still **3N4P**, Architecture A, same magnets/bearings family as V1.
 
 ---
 
-## Problem statement (from V1)
-
-Hand-spin BEMF was only ~**0.2–1 mV** AC phase-to-phase → ESC jerks, never runs.  
-See [V1 log](../v1/).
-
----
-
-## CAD changes so far (vs V1)
+## What changed vs V1
 
 | Change | Detail |
 |--------|--------|
-| **Tighter air gap** | Rotor diameter reduced so magnet↔stator clearance is **under ~1 mm** (measured as **minimum** distance magnet face → stator; value depends on where you measure) |
-| **Thinner tooth tips** | Tip thickness `#TIP_THICK` reduced **1.0 mm → 0.5 mm** so the tip face can sit closer / improve min gap to the magnets |
-| **Tip-corner fillets** | **0.5 mm** fillets on tip corners (with the thinner tips) — print/wind friendliness and gap packaging |
-| **Stator fillets** | Fillets on stator to remove sharp corners for safer / easier coil winding |
-| **Rotor visibility cutouts** | Openings in the rotor so the interior (stator, windings, gap) can be seen when assembled |
-| **Stator press chamfer** | Chamfer on the stator hub so it presses onto the base more easily |
-| **Winding body (CAD)** | Solid body added to **represent** the winding bundle (keep-out / packaging — not literal turns) |
-| **Base wire routing** | Features on the base to route phase leads to the ESC and manage the **neutral** joint |
+| **Tighter air gap** | Rotor diameter reduced — min magnet↔stator clearance **under ~1 mm** |
+| **Thinner tooth tips** | `#TIP_THICK` **1.0 → 0.5 mm** |
+| **Tip-corner fillets** | **0.5 mm** fillets on tip corners |
+| **Stator fillets** | Easier / safer winding |
+| **Rotor visibility cutouts** | See interior when assembled |
+| **Stator press chamfer** | Press-fit onto base |
+| **Winding body (CAD)** | Keep-out for coil bundle |
+| **Base wire routing** | Phase leads + neutral management |
+| **Electrical** | More turns + finer wire (vs V1’s ~40 T / 24 AWG) |
 
-### Still planned (electrical)
-
-| Change | Why |
-|--------|-----|
-| **Many more turns** / tooth | BEMF ∝ turns — target **100–150+** (tune to fit) |
-| **Thinner wire** if needed | Fit more turns — prefer **28–30 AWG** if 24 AWG fills too fast |
-
-Tighter gap helps coupling; **turn count** is still expected to be the main BEMF lever after V1.
-
-Explore candidates in the repo simulator before winding: [`../../docs/simulator.md`](../../docs/simulator.md) (`V2_DRAFT` preset ≈ 120 turns / 28 AWG / ~1 mm gap).
+V1 failure context: [V1 log](../v1/) — BEMF ~mV, ESC jerk only.
 
 ---
 
-## Keep from V1
+## Result
 
-- 3N4P, N–S–N–S magnets (4 of 12)
-- Star: starts = neutral, ends → ESC; same wind direction on all teeth
-- Architecture A (stator on base; bearings in rotor)
-- Onshape parametric CAD
+- [x] Motor **runs continuously** on sensorless ESC
+- [x] First successful spin documented (see videos)
+- [ ] Formal BEMF measurement logged (optional follow-up)
 
-## Explicitly deprioritized (for now)
+---
 
-- Jumping to 6N8P / more magnet pockets “just to try”
-- Iron core / sintered inserts (possible later generation)
-- Exhaustive star-flip on leftover V1 hardware as the main path
+## Photos
 
-## Success criteria
+| File | Caption |
+|------|---------|
+| [photos/01-3dprinted-parts.jpg](photos/01-3dprinted-parts.jpg) | V2 printed parts: stator, base, rotor |
+| [photos/02-3dprinted-parts-alt.jpg](photos/02-3dprinted-parts-alt.jpg) | Printed parts, alternate layout |
+| [photos/03-winding-start.jpg](photos/03-winding-start.jpg) | Winding in progress — two coils done |
+| [photos/04-winding-progress.jpg](photos/04-winding-progress.jpg) | Two coils wound, spool on bench |
+| [photos/05-winding-progress-2.jpg](photos/05-winding-progress-2.jpg) | All three coils wound; leads routed through base |
+| [photos/06-winding-progress-3.jpg](photos/06-winding-progress-3.jpg) | Finished stator, all coils wound |
+| [photos/07-winding-complete.jpg](photos/07-winding-complete.jpg) | Wound stator with center shaft installed |
+| [photos/08-assembly-rotor-on-stator.jpg](photos/08-assembly-rotor-on-stator.jpg) | Stator in housing, phase leads to bullets |
+| [photos/09-assembly-wired.jpg](photos/09-assembly-wired.jpg) | Top frame installed, coils visible |
+| [photos/10-assembly-on-base.jpg](photos/10-assembly-on-base.jpg) | Near-complete assembly, handheld |
+| [photos/11-wire-routing.jpg](photos/11-wire-routing.jpg) | Backplate: star neutral joint + routed leads |
+| [photos/12-final-assembly.jpg](photos/12-final-assembly.jpg) | Completed motor on bench, ready to drive |
+| [photos/13-v1-next-to-v2.jpg](photos/13-v1-next-to-v2.jpg) | V1 vs V2 side-by-side |
+| [photos/14-v1-next-to-v2-alt.jpg](photos/14-v1-next-to-v2-alt.jpg) | V1 vs V2 top-down comparison |
+| [photos/15-esc-test-running.jpg](photos/15-esc-test-running.jpg) | Test setup — motor + power connector |
+| [photos/16-esc-test-running-alt.jpg](photos/16-esc-test-running-alt.jpg) | Motor wired to 30 A ESC on bench |
 
-- [ ] Hand-spin BEMF clearly measurable on **V / low V**, not only noisy mV
-- [ ] ESC runs continuously after arm + throttle (flick assist OK on first try)
-- [ ] Notes + photos logged under `v2/` after the test
+## Videos
 
-## Next hardware steps
+Compressed from iPhone `.MOV` originals:
 
-1. Freeze CAD → export / print coupons (bearing bore, magnet pocket, press-fit chamfer).  
-2. Print full V2 set.  
-3. Wind for **high turn count**; confirm with BEMF test **before** long phase-swap sessions.  
-4. Log results + photos here.
+| File | Notes |
+|------|--------|
+| [videos/01-first-run.mp4](videos/01-first-run.mp4) | **First successful run** |
+| [videos/02-longest-run.mp4](videos/02-longest-run.mp4) | Longest continuous run |
+
+```
+v2/
+├── README.md
+├── photos/
+└── videos/
+```

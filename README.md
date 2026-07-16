@@ -7,7 +7,7 @@ Hand-wound, FDM-printed brushless motors, tear-down notes, and an analytical par
 | Build | Version | Status |
 |-------|---------|--------|
 | [**3N4P outrunner**](builds/3n4p/) | **V1** | Built & tested — **failed to spin** (BEMF too low) — [Onshape CAD](https://cad.onshape.com/documents/c3a46516d37b902d82586f2e/w/ed344aed172445edb6c630d8/e/2b879cec032d2310868e3323?renderMode=0&uiState=6a57b19a1ee05c228a657679) |
-| [**3N4P outrunner**](builds/3n4p/) | **V2** | CAD in progress — tighter gap, thinner tips (0.5 mm), windability & routing; more turns still planned — [Onshape CAD](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e) |
+| [**3N4P outrunner**](builds/3n4p/) | **V2** | **Runs successfully** — tighter gap, more turns, improved routing — [build log](builds/3n4p/v2/) · [Onshape CAD](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e) |
 
 Also:
 - [**Simulator**](docs/simulator.md) — Streamlit / `bldc_sim` (BEMF, torque–speed, fill, etc.)

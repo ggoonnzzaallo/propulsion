@@ -17,6 +17,7 @@ __pycache__/
 # Keep photos/docs in git. Ignore raw phone dumps and huge originals;
 # compressed previews live under builds/*/videos/ as .mp4.
 iphone pics*/
+iphone pictures*/
 **/IMG_*.MOV
 **/IMG_*.mov
 *.HEIC
