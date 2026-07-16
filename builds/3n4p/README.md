@@ -1,42 +1,10 @@
-# Build family: 3N4P outrunner
+# 3N4P outrunner
 
-Simplest 3-phase DIY outrunner we chose for hand winding: **3 stator teeth, 4 magnet poles**.
+3 teeth, 4 magnets — fewest coils for a 3-phase hobby ESC. Plastic stator, outrunner layout.
 
-## Why 3N4P
+| Version | Result | Notes |
+|---------|--------|-------|
+| [V1](v1/) | Failed | ~40 T, 24 AWG; BEMF ~mV |
+| [V2](v2/) | **Runs** | Tighter gap, more turns, better routing |
 
-- One coil per phase → least winding work  
-- Valid for hobby sensorless ESCs (unlike 5-slot ideas)  
-- Plastic / air-core stator on v1 for printability  
-
-## Versions
-
-| Version | Status | Summary |
-|---------|--------|---------|
-| [**V1**](v1/) | Tested — failed | ~40 turns 24 AWG; ESC jerked, no run; BEMF ~mV — [Onshape CAD](https://cad.onshape.com/documents/c3a46516d37b902d82586f2e/w/ed344aed172445edb6c630d8/e/2b879cec032d2310868e3323?renderMode=0&uiState=6a57b19a1ee05c228a657679) |
-| [**V2**](v2/) | **Success — runs** | Tighter gap, more turns, routing improvements; [photos + videos](v2/) — [Onshape CAD](https://cad.onshape.com/documents/c89f2c87853c9f2774f38798/w/97a941b73ea3b6d03a2aeefd/e/ee342bf624cf2c4ee2937c15?renderMode=0&uiState=6a57b1c4ce1bb754973f165e) |
-
-## Locked hardware (shared across versions unless noted)
-
-| Part | Measured |
-|------|----------|
-| Magnets | **2.75 × 9.25 × 28.82 mm** — use **4**, N–S–N–S |
-| Bearings | ~Ø9.96 × Ø2.99 × 3.97 mm (623-class) |
-| Shaft | M3 ~Ø2.80 (prefer true Ø3.00 later) |
-| Drive | ~30 A sensorless ESC + servo tester |
-
-## CAD highlights (V1 baseline)
-
-| Param | Value |
-|-------|-------|
-| Air gap | 1.5 mm |
-| Stator tip R | 21.0 mm |
-| Magnet face R | 22.5 mm |
-| Rotor OD | ~56.5 mm |
-| Stator stack | 31 mm |
-| Topology | Architecture A (stator on base; bearings in rotor) |
-
-Full tables & Onshape notes live under [`../../docs/`](../../docs/).
-
-**Simulator:** [`../../docs/simulator.md`](../../docs/simulator.md) — V1/V2 presets in `src/bldc_sim/presets/n3p4.py`.
-
-**BOM (shared hardware):** [`../../docs/bom.md`](../../docs/bom.md)
+Hardware: [BOM](../../docs/bom.md) · Assembly: [guide](../../docs/assembly-magnets-windings.md)
