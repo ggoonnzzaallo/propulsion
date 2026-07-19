@@ -18,7 +18,7 @@ BOM, assembly, and CAD notes live on the [3N4P page](builds/3n4p/).
 
 ## Benchmarking
 
-Commercial tear-downs for comparison: **[benchmarking/](benchmarking/)**
+Hobby tear-down + MIT Cheetah–family actuator reference: **[benchmarking/](benchmarking/)**
 
 ## Simulator
 
